@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/appcon" />
+        app:srcCompat="@drawable/appcondominio" />
 
     <EditText
         android:id="@+id/emaillogin"
@@ -57,6 +57,7 @@
         android:layout_height="68dp"
         android:layout_marginStart="72dp"
         android:layout_marginTop="112dp"
+        android:backgroundTint="#083D5C"
         android:text="Login"
         app:cornerRadius="1dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,6 +69,7 @@
         android:layout_height="68dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="36dp"
+        android:backgroundTint="#083D5C"
         android:text="Cadastrar"
         app:cornerRadius="1dp"
         app:layout_constraintBottom_toBottomOf="@+id/buttonlogin"
