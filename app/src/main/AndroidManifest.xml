@@ -12,6 +12,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCondominio">
         <activity
+            android:name=".PortariaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MudancasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MuralActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AutorizacaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AutirizacaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReservaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BoletoActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
