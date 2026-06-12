@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class ReservaAdapter(private val Reservas: List<String>) : RecyclerView.Adapter<ReservaAdapter.ReservaViewHolder>(){
+class ReservaAdapter(private val reservas: List<String>) : RecyclerView.Adapter<ReservaAdapter.ReservaViewHolder>(){
 
 
 
@@ -25,13 +25,13 @@ class ReservaAdapter(private val Reservas: List<String>) : RecyclerView.Adapter<
     }
 
     override fun onBindViewHolder(holder: ReservaViewHolder, p1: Int) {
-        val Reservas = Reservas[p1]
-        val Reserva = null
-        holder.item.text = Reserva
+        val item = reservas[p1]
+        holder.item.text = item
+
 
     }
 
     override fun getItemCount(): Int {
-      return Reservas.size
+      return reservas.size
     }
 }
